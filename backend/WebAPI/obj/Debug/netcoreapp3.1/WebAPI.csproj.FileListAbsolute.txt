@@ -1,0 +1,9 @@
+C:\Projetos\SysTeam\backend\WebAPI\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Projetos\SysTeam\backend\WebAPI\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Projetos\SysTeam\backend\WebAPI\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
+C:\Projetos\SysTeam\backend\WebAPI\obj\Debug\netcoreapp3.1\WebAPI.csprojAssemblyReference.cache
+C:\Projetos\SysTeam\backend\WebAPI\obj\Debug\netcoreapp3.1\WebAPI.AssemblyInfoInputs.cache
+C:\Projetos\SysTeam\backend\WebAPI\obj\Debug\netcoreapp3.1\WebAPI.AssemblyInfo.cs
+C:\Projetos\SysTeam\backend\WebAPI\obj\Debug\netcoreapp3.1\WebAPI.RazorTargetAssemblyInfo.cache
+C:\Projetos\SysTeam\backend\WebAPI\obj\Debug\netcoreapp3.1\staticwebassets\WebAPI.StaticWebAssets.Manifest.cache
+C:\Projetos\SysTeam\backend\WebAPI\obj\Debug\netcoreapp3.1\staticwebassets\WebAPI.StaticWebAssets.xml
