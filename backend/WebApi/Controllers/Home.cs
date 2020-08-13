@@ -39,7 +39,7 @@ namespace WebApi.Controllers
         }
         [HttpPost]
         [Route("registrar")]
-        [AllowAnonymous]
+        [Authorize]
         public ActionResult<dynamic> Registrar(User model)
         {
             try
@@ -63,25 +63,21 @@ namespace WebApi.Controllers
             }
         }
 
-        [HttpPost]
+        [HttpPut]
         [Route("atualizar")]
         [Authorize]
+        [Authorize(Roles = "admin")]
         public ActionResult<dynamic> Atualizar(User model)
         {
             try
             {
                 model.Password = _tokenService.Encrypt(model.Password);
-                var user = _carregaService.CarregaPor(model);
-                if (user == null)
+                if (_persistenciaService.Update(model))
                 {
-                    if (_persistenciaService.Update(model))
-                    {
-                        model.Password = "";
-                        return Ok(model);
-                    }
-                    return BadRequest("Erro ao salvar: ");
+                    model.Password = "";
+                    return Ok(model);
                 }
-                return BadRequest("Já existe");
+                return BadRequest("Erro ao salvar: ");
             }
             catch (Exception e)
             {
