@@ -1,0 +1,12 @@
+#rodapeinicial{
+    background-color: #DCDCDC;
+    position: absolute;
+	bottom: 0;
+    height: 50px;
+    width: 100% !important;
+}
+
+#rodapeinicial p{
+    font-size: 1em !important;
+    padding-top: 10px;
+}
