@@ -1,31 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Projetos\\SysTeam\\backend\\WebApi\\WebApi.csproj": {}
+    "/home/david/Projeto/SysTeam/backend/WebAPI/WebAPI.csproj": {}
   },
   "projects": {
-    "C:\\Projetos\\SysTeam\\backend\\Model\\Model.csproj": {
+    "/home/david/Projeto/SysTeam/backend/Model/Model.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Projetos\\SysTeam\\backend\\Model\\Model.csproj",
+        "projectUniqueName": "/home/david/Projeto/SysTeam/backend/Model/Model.csproj",
         "projectName": "Model",
-        "projectPath": "C:\\Projetos\\SysTeam\\backend\\Model\\Model.csproj",
-        "packagesPath": "C:\\Users\\david\\.nuget\\packages\\",
-        "outputPath": "C:\\Projetos\\SysTeam\\backend\\Model\\obj\\",
+        "projectPath": "/home/david/Projeto/SysTeam/backend/Model/Model.csproj",
+        "packagesPath": "/home/david/.nuget/packages/",
+        "outputPath": "/home/david/Projeto/SysTeam/backend/Model/obj/",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\"
-        ],
         "configFilePaths": [
-          "C:\\Users\\david\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "/home/david/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -56,39 +50,33 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.401/RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Projetos\\SysTeam\\backend\\Repositories\\Repositories.csproj": {
+    "/home/david/Projeto/SysTeam/backend/Repositories/Repositories.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Projetos\\SysTeam\\backend\\Repositories\\Repositories.csproj",
+        "projectUniqueName": "/home/david/Projeto/SysTeam/backend/Repositories/Repositories.csproj",
         "projectName": "Repositories",
-        "projectPath": "C:\\Projetos\\SysTeam\\backend\\Repositories\\Repositories.csproj",
-        "packagesPath": "C:\\Users\\david\\.nuget\\packages\\",
-        "outputPath": "C:\\Projetos\\SysTeam\\backend\\Repositories\\obj\\",
+        "projectPath": "/home/david/Projeto/SysTeam/backend/Repositories/Repositories.csproj",
+        "packagesPath": "/home/david/.nuget/packages/",
+        "outputPath": "/home/david/Projeto/SysTeam/backend/Repositories/obj/",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\"
-        ],
         "configFilePaths": [
-          "C:\\Users\\david\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "/home/david/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Projetos\\SysTeam\\backend\\Model\\Model.csproj": {
-                "projectPath": "C:\\Projetos\\SysTeam\\backend\\Model\\Model.csproj"
+              "/home/david/Projeto/SysTeam/backend/Model/Model.csproj": {
+                "projectPath": "/home/david/Projeto/SysTeam/backend/Model/Model.csproj"
               }
             }
           }
@@ -138,42 +126,36 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.401/RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Projetos\\SysTeam\\backend\\Service\\Service.csproj": {
+    "/home/david/Projeto/SysTeam/backend/Service/Service.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Projetos\\SysTeam\\backend\\Service\\Service.csproj",
+        "projectUniqueName": "/home/david/Projeto/SysTeam/backend/Service/Service.csproj",
         "projectName": "Service",
-        "projectPath": "C:\\Projetos\\SysTeam\\backend\\Service\\Service.csproj",
-        "packagesPath": "C:\\Users\\david\\.nuget\\packages\\",
-        "outputPath": "C:\\Projetos\\SysTeam\\backend\\Service\\obj\\",
+        "projectPath": "/home/david/Projeto/SysTeam/backend/Service/Service.csproj",
+        "packagesPath": "/home/david/.nuget/packages/",
+        "outputPath": "/home/david/Projeto/SysTeam/backend/Service/obj/",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\"
-        ],
         "configFilePaths": [
-          "C:\\Users\\david\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "/home/david/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Projetos\\SysTeam\\backend\\Model\\Model.csproj": {
-                "projectPath": "C:\\Projetos\\SysTeam\\backend\\Model\\Model.csproj"
+              "/home/david/Projeto/SysTeam/backend/Model/Model.csproj": {
+                "projectPath": "/home/david/Projeto/SysTeam/backend/Model/Model.csproj"
               },
-              "C:\\Projetos\\SysTeam\\backend\\Repositories\\Repositories.csproj": {
-                "projectPath": "C:\\Projetos\\SysTeam\\backend\\Repositories\\Repositories.csproj"
+              "/home/david/Projeto/SysTeam/backend/Repositories/Repositories.csproj": {
+                "projectPath": "/home/david/Projeto/SysTeam/backend/Repositories/Repositories.csproj"
               }
             }
           }
@@ -207,52 +189,43 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
-            "Microsoft.AspNetCore.App": {
-              "privateAssets": "none"
-            },
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.401/RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Projetos\\SysTeam\\backend\\WebApi\\WebApi.csproj": {
+    "/home/david/Projeto/SysTeam/backend/WebAPI/WebAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Projetos\\SysTeam\\backend\\WebApi\\WebApi.csproj",
-        "projectName": "WebApi",
-        "projectPath": "C:\\Projetos\\SysTeam\\backend\\WebApi\\WebApi.csproj",
-        "packagesPath": "C:\\Users\\david\\.nuget\\packages\\",
-        "outputPath": "C:\\Projetos\\SysTeam\\backend\\WebApi\\obj\\",
+        "projectUniqueName": "/home/david/Projeto/SysTeam/backend/WebAPI/WebAPI.csproj",
+        "projectName": "WebAPI",
+        "projectPath": "/home/david/Projeto/SysTeam/backend/WebAPI/WebAPI.csproj",
+        "packagesPath": "/home/david/.nuget/packages/",
+        "outputPath": "/home/david/Projeto/SysTeam/backend/WebAPI/obj/",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\"
-        ],
         "configFilePaths": [
-          "C:\\Users\\david\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "/home/david/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Projetos\\SysTeam\\backend\\Model\\Model.csproj": {
-                "projectPath": "C:\\Projetos\\SysTeam\\backend\\Model\\Model.csproj"
+              "/home/david/Projeto/SysTeam/backend/Model/Model.csproj": {
+                "projectPath": "/home/david/Projeto/SysTeam/backend/Model/Model.csproj"
               },
-              "C:\\Projetos\\SysTeam\\backend\\Repositories\\Repositories.csproj": {
-                "projectPath": "C:\\Projetos\\SysTeam\\backend\\Repositories\\Repositories.csproj"
+              "/home/david/Projeto/SysTeam/backend/Repositories/Repositories.csproj": {
+                "projectPath": "/home/david/Projeto/SysTeam/backend/Repositories/Repositories.csproj"
               },
-              "C:\\Projetos\\SysTeam\\backend\\Service\\Service.csproj": {
-                "projectPath": "C:\\Projetos\\SysTeam\\backend\\Service\\Service.csproj"
+              "/home/david/Projeto/SysTeam/backend/Service/Service.csproj": {
+                "projectPath": "/home/david/Projeto/SysTeam/backend/Service/Service.csproj"
               }
             }
           }
@@ -317,7 +290,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.401/RuntimeIdentifierGraph.json"
         }
       }
     }
