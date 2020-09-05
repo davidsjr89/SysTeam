@@ -1,0 +1,25 @@
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center
+}
+.box {
+    width: 300px;
+    background: #fff;
+}
+body {
+   margin: 0px;
+}
+
+.imagem{
+    height: 30%;
+    width: 30%;
+    margin-bottom: 2rem;
+}
+
+#divBotao{
+    margin-top: 2rem;
+}

@@ -6149,11 +6149,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/david/Projeto/SysTeam/backend/WebAPI/WebAPI.csproj",
+      "projectUniqueName": "/home/david/Projetos/SysTeam/backend/WebAPI/WebAPI.csproj",
       "projectName": "WebAPI",
-      "projectPath": "/home/david/Projeto/SysTeam/backend/WebAPI/WebAPI.csproj",
+      "projectPath": "/home/david/Projetos/SysTeam/backend/WebAPI/WebAPI.csproj",
       "packagesPath": "/home/david/.nuget/packages/",
-      "outputPath": "/home/david/Projeto/SysTeam/backend/WebAPI/obj/",
+      "outputPath": "/home/david/Projetos/SysTeam/backend/WebAPI/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/david/.nuget/NuGet/NuGet.Config"
@@ -6167,14 +6167,14 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "/home/david/Projeto/SysTeam/backend/Model/Model.csproj": {
-              "projectPath": "/home/david/Projeto/SysTeam/backend/Model/Model.csproj"
+            "/home/david/Projetos/SysTeam/backend/Model/Model.csproj": {
+              "projectPath": "/home/david/Projetos/SysTeam/backend/Model/Model.csproj"
             },
-            "/home/david/Projeto/SysTeam/backend/Repositories/Repositories.csproj": {
-              "projectPath": "/home/david/Projeto/SysTeam/backend/Repositories/Repositories.csproj"
+            "/home/david/Projetos/SysTeam/backend/Repositories/Repositories.csproj": {
+              "projectPath": "/home/david/Projetos/SysTeam/backend/Repositories/Repositories.csproj"
             },
-            "/home/david/Projeto/SysTeam/backend/Service/Service.csproj": {
-              "projectPath": "/home/david/Projeto/SysTeam/backend/Service/Service.csproj"
+            "/home/david/Projetos/SysTeam/backend/Service/Service.csproj": {
+              "projectPath": "/home/david/Projetos/SysTeam/backend/Service/Service.csproj"
             }
           }
         }

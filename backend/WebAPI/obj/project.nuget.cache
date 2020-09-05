@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "j95GUrY7EzwGdBM+s0N5mY5x2ri2gs1fBOh+AK7pEAULXaVdezeC6bOWUMWjz+NHpiKVc29s+fxdYrrK/z1onA==",
+  "dgSpecHash": "WgZa27bvehdLeXa5oB/fCiZBLehydjNG0uVSM6jguj6/wbU0ckt/wnpHYnMRHIYw+lZ5sgl1jYX+lpv3MsBhrg==",
   "success": true,
-  "projectFilePath": "/home/david/Projeto/SysTeam/backend/WebAPI/WebAPI.csproj",
+  "projectFilePath": "/home/david/Projetos/SysTeam/backend/WebAPI/WebAPI.csproj",
   "expectedPackageFiles": [
     "/home/david/.nuget/packages/microsoft.aspnetcore.authentication/2.2.0/microsoft.aspnetcore.authentication.2.2.0.nupkg.sha512",
     "/home/david/.nuget/packages/microsoft.aspnetcore.authentication.abstractions/2.2.0/microsoft.aspnetcore.authentication.abstractions.2.2.0.nupkg.sha512",

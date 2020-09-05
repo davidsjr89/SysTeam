@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/david/Projeto/SysTeam/backend/Model/Model.csproj": {}
+    "/home/david/Projetos/SysTeam/backend/Model/Model.csproj": {}
   },
   "projects": {
-    "/home/david/Projeto/SysTeam/backend/Model/Model.csproj": {
+    "/home/david/Projetos/SysTeam/backend/Model/Model.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/david/Projeto/SysTeam/backend/Model/Model.csproj",
+        "projectUniqueName": "/home/david/Projetos/SysTeam/backend/Model/Model.csproj",
         "projectName": "Model",
-        "projectPath": "/home/david/Projeto/SysTeam/backend/Model/Model.csproj",
+        "projectPath": "/home/david/Projetos/SysTeam/backend/Model/Model.csproj",
         "packagesPath": "/home/david/.nuget/packages/",
-        "outputPath": "/home/david/Projeto/SysTeam/backend/Model/obj/",
+        "outputPath": "/home/david/Projetos/SysTeam/backend/Model/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/david/.nuget/NuGet/NuGet.Config"
