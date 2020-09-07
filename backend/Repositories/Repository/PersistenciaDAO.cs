@@ -1,5 +1,6 @@
 ﻿using Repositories.Data;
 using Repositories.Interfaces;
+using System.Threading.Tasks;
 
 namespace Repositories.Repository
 {
@@ -12,18 +13,23 @@ namespace Repositories.Repository
         }
         public bool Add<T>(T entity) where T : class
         {
-            _context.Add(entity);
+            _context.AddAsync(entity);
             return SaveChanges();
         }
 
         public bool SaveChanges()
         {
-            return (_context.SaveChanges()) > 0;
+            return ( _context.SaveChanges()) > 0;
         }
 
         public bool Update<T>(T entity) where T : class
         {
             _context.Update(entity);
+            return SaveChanges();
+        }
+        public bool Remove<T>(T entity) where T: class
+        {
+            _context.Remove(entity);
             return SaveChanges();
         }
 

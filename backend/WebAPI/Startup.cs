@@ -29,7 +29,7 @@ namespace WebApi
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddTransient<ITokenService<User>, TokenService>();
-            services.AddScoped<ICarregaService<User>, CarregaService>();
+            services.AddScoped<ICarregaService<User>, CarregaServiceUser>();
             services.AddScoped<ICarregaDAO<User>, CarregaUserDAO>();
             services.AddScoped<IDAO, PersistenciaDAO>();
             services.AddScoped<IPersistenciaService, PersistenciaService>();

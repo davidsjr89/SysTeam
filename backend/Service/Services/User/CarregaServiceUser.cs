@@ -1,16 +1,14 @@
 ﻿using Model.Autenticacao;
 using Repositories.Interfaces;
 using Service.Interfaces;
-using System;
 using System.Collections.Generic;
-using System.Text;
 
 namespace Service.Services
 {
-    public class CarregaService : ICarregaService<User>
+    public class CarregaServiceUser : ICarregaService<User>
     {
         private readonly ICarregaDAO<User> _carregaDAO;
-        public CarregaService(ICarregaDAO<User> carregaDAO)
+        public CarregaServiceUser(ICarregaDAO<User> carregaDAO)
         {
             _carregaDAO = carregaDAO;
         }
@@ -21,7 +19,7 @@ namespace Service.Services
 
         public IList<User> Lista()
         {
-            throw new NotImplementedException();
+            return _carregaDAO.Lista();
         }
     }
 }

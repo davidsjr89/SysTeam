@@ -4,6 +4,7 @@ using Service.Interfaces;
 using System;
 using System.Collections.Generic;
 using System.Text;
+using System.Threading.Tasks;
 
 namespace Service.Services
 {
@@ -22,6 +23,10 @@ namespace Service.Services
         public bool Update<T>(T entity) where T : class
         {
             return _dAO.Update(entity);
+        }
+        public bool Remove<T>(T entity) where T : class
+        {
+            return _dAO.Remove(entity);
         }
     }
 }

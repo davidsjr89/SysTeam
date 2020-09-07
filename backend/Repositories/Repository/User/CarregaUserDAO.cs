@@ -1,9 +1,11 @@
-﻿using Model.Autenticacao;
+﻿using Microsoft.EntityFrameworkCore;
+using Model.Autenticacao;
 using Repositories.Data;
 using Repositories.Interfaces;
 using System.Collections.Generic;
 using System.Linq;
 using System.Security.Cryptography.X509Certificates;
+using System.Threading.Tasks;
 
 namespace Repositories.Repository
 {
@@ -27,9 +29,9 @@ namespace Repositories.Repository
                 return _dataContext.Users.FirstOrDefault(x => x.Id == entity.Id);
         }
 
-        public List<User> Lista(User entity)
+        public List<User> Lista()
         {
-            throw new System.NotImplementedException();
+            return _dataContext.Users.ToList();
         }
     }
 }
