@@ -6,6 +6,7 @@ using Repositories.Repository;
 using Service.Interfaces;
 using Service.Services;
 using Service.Token;
+using Test.BD;
 using Xunit;
 
 namespace Test.PersistenciaTest
@@ -18,7 +19,7 @@ namespace Test.PersistenciaTest
         private readonly IDAO dAO;
         public PersistenciaTest()
         {
-            optionsBuilder.UseSqlServer("Server=localhost;Database=SysTeam;User Id=sa;Password=123456;");
+            optionsBuilder.UseSqlServer(ConfiguracaoSQLServer.StringDeConexao());
             tokenService = new TokenService();
             dAO = new PersistenciaDAO(new DataContext(optionsBuilder.Options));
             persistenciaService = new PersistenciaService(dAO);

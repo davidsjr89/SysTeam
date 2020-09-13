@@ -7,6 +7,7 @@ using Repositories.Repository;
 using Service.Interfaces;
 using Service.Services;
 using Service.Token;
+using Test.BD;
 using Xunit;
 
 namespace Test.UserTest
@@ -21,7 +22,7 @@ namespace Test.UserTest
 
         public CarregaServiceUserTest()
         {
-            optionsBuilder.UseSqlServer("Server=localhost;Database=SysTeam;User Id=sa;Password=123456;");
+            optionsBuilder.UseSqlServer(ConfiguracaoSQLServer.StringDeConexao());
             tokenService = new TokenService();
             dAO = new PersistenciaDAO(new DataContext(optionsBuilder.Options));
             carregaDAO = new CarregaUserDAO(new DataContext(optionsBuilder.Options));
