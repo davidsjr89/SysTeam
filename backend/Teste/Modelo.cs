@@ -4,12 +4,10 @@ using Repositories.Data;
 using Repositories.Interfaces;
 using Repositories.Repository;
 
-
-namespace Test
+namespace Teste
 {
     public class Modelo
     {
-
         private readonly DbContextOptionsBuilder<DataContext> optionsBuilder = new DbContextOptionsBuilder<DataContext>();
         private readonly ICarregaDAO<User> carregaDAO;
 

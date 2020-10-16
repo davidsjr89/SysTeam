@@ -1,15 +1,18 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Model.Autenticacao;
+using NUnit.Framework;
 using Repositories.Data;
 using Repositories.Interfaces;
 using Repositories.Repository;
 using Service.Interfaces;
 using Service.Services;
 using Service.Token;
-using Test.BD;
-using Xunit;
+using System;
+using System.Collections.Generic;
+using System.Text;
+using Teste.BD;
 
-namespace Test.PersistenciaTest
+namespace Teste.PersistenciaTeste
 {
     public class PersistenciaTest
     {
@@ -24,7 +27,7 @@ namespace Test.PersistenciaTest
             dAO = new PersistenciaDAO(new DataContext(optionsBuilder.Options));
             persistenciaService = new PersistenciaService(dAO);
         }
-        [Fact]
+        [Test]
         public void Add_User()
         {
             User model = new User()
@@ -39,7 +42,7 @@ namespace Test.PersistenciaTest
             persistenciaService.Remove(model);
 
         }
-        [Fact]
+        [Test]
         public void Update_User()
         {
             User model = new User()
@@ -60,7 +63,7 @@ namespace Test.PersistenciaTest
 
 
         }
-        [Fact]
+        [Test]
         public void Remove_User()
         {
             User model = new User()
@@ -74,7 +77,7 @@ namespace Test.PersistenciaTest
             persistenciaService.Add(model);
             Assert.True(persistenciaService.Remove(model));
         }
-        
+
     }
 
 }

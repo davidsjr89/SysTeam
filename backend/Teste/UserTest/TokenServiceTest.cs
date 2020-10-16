@@ -1,14 +1,14 @@
-using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.EntityFrameworkCore;
 using Model.Autenticacao;
+using NUnit.Framework;
 using Repositories.Data;
 using Repositories.Interfaces;
 using Repositories.Repository;
 using Service.Interfaces;
 using Service.Token;
-using Test.BD;
-using Xunit;
+using Teste.BD;
 
-namespace Test
+namespace Teste.UserTest
 {
     public class TokenServiceTest
     {
@@ -16,7 +16,7 @@ namespace Test
         private readonly ICarregaDAO<User> carregaDAO;
         private readonly ITokenService<User> tokenService;
 
-        
+
         public TokenServiceTest()
         {
             tokenService = new TokenService();
@@ -24,7 +24,7 @@ namespace Test
             carregaDAO = new CarregaUserDAO(new DataContext(optionsBuilder.Options));
         }
 
-        [Fact]
+        [Test]
         public void TokenService_Encrypt()
         {
             var model = new User()
@@ -33,9 +33,9 @@ namespace Test
                 Password = "123456"
             };
             model.Password = tokenService.Encrypt(model.Password);
-            Assert.Equal("MTIzNDU2Mjg3NTZmNWZmOTJhNTUzYjM4OGZkZDRhMWNhZTc0ZmI=", model.Password);
+            Assert.AreEqual("MTIzNDU2Mjg3NTZmNWZmOTJhNTUzYjM4OGZkZDRhMWNhZTc0ZmI=", model.Password);
         }
-        [Fact]
+        [Test]
         public void TokenService_Decrypt()
         {
 
@@ -45,12 +45,12 @@ namespace Test
                 Password = "MTIzNDU2Mjg3NTZmNWZmOTJhNTUzYjM4OGZkZDRhMWNhZTc0ZmI="
             };
             model.Password = tokenService.Decrypt(model.Password);
-            Assert.Equal("123456", model.Password);
+            Assert.AreEqual("123456", model.Password);
         }
-        [Fact]
+        [Test]
         public void Settings_Token()
         {
-            Assert.Equal("E462703AF506A53A6AD8278B97C9A0A0F48F41D95B3CD1937B0AC6ABFDA7863F", Settings.Secret);
+            Assert.AreEqual("E462703AF506A53A6AD8278B97C9A0A0F48F41D95B3CD1937B0AC6ABFDA7863F", Settings.Secret);
         }
     }
 }

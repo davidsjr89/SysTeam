@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Test.BD
+namespace Teste.BD
 {
     public static class ConfiguracaoSQLServer
     {

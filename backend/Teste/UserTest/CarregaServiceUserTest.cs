@@ -1,16 +1,18 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using Microsoft.EntityFrameworkCore.Internal;
 using Model.Autenticacao;
+using NUnit.Framework;
 using Repositories.Data;
 using Repositories.Interfaces;
 using Repositories.Repository;
 using Service.Interfaces;
 using Service.Services;
 using Service.Token;
-using Test.BD;
-using Xunit;
+using System;
+using System.Collections.Generic;
+using System.Text;
+using Teste.BD;
 
-namespace Test.UserTest
+namespace Teste.UserTest
 {
     public class CarregaServiceUserTest
     {
@@ -28,7 +30,7 @@ namespace Test.UserTest
             carregaDAO = new CarregaUserDAO(new DataContext(optionsBuilder.Options));
             persistenciaService = new PersistenciaService(dAO);
         }
-        [Fact]
+        [Test]
         public void CarregaServiceUser_CarregaPor_UserPassword()
         {
             User model = new User()
@@ -46,10 +48,10 @@ namespace Test.UserTest
                 Username = "jho",
                 Password = tokenService.Encrypt("jho")
             };
-            Assert.Equal(model.Id, carregaDAO.CarregaPor(userPassword).Id);
+            Assert.AreEqual(model.Id, carregaDAO.CarregaPor(userPassword).Id);
             persistenciaService.Remove(model);
         }
-        [Fact]
+        [Test]
         public void CarregaServiceUser_CarregarLista()
         {
             User model = new User()
