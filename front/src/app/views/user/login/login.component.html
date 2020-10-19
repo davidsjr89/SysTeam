@@ -1,42 +1,42 @@
 <div class="container">
-    <div class="box shadow p-3 mb-6 bg-white rounded">
-      <form [formGroup]="loginForm" (submit)="login()">
-        <div>
-          <img class="imagem rounded mx-auto d-block" alt='login' src="../../../../assets/img/login.png">
-        </div>
-        <div>
-  
-          <div class="input-group flex-nowrap">
-            <div class="input-group-prepend">
-              <span class="input-group-text" id="addon-wrapping"
-                ><em class="fa fa-user"></em
-              ></span>
-            </div>
-            <input
-              type="text"
-              class="form-control"
-              placeholder="Usuário"
-              formControlName="userName"
-            />
+  <div class="box shadow p-3 mb-6 bg-white rounded">
+    <form [formGroup]="loginForm" (submit)="login()">
+      <div>
+        <img class="imagem rounded mx-auto d-block" alt='login' src="../../../../assets/img/login.png">
+      </div>
+      <div>
+
+        <div class="input-group flex-nowrap">
+          <div class="input-group-prepend">
+            <span class="input-group-text" id="addon-wrapping"
+              ><em class="fa fa-user"></em
+            ></span>
           </div>
-          <br />
-          <div class="input-group flex-nowrap">
-            <div class="input-group-prepend">
-              <span class="input-group-text" id="addon-wrapping"
-                ><em class="fa fa-key"></em
-              ></span>
-            </div>
-            <input
-              type="password"
-              class="form-control"
-              placeholder="Senha"
-              formControlName="password"
-            />
+          <input
+            type="text"
+            class="form-control"
+            placeholder="Usuário"
+            formControlName="userName"
+          />
+        </div>
+        <br />
+        <div class="input-group flex-nowrap">
+          <div class="input-group-prepend">
+            <span class="input-group-text" id="addon-wrapping"
+              ><em class="fas fa-key"></em
+            ></span>
           </div>
+          <input
+            type="password"
+            class="form-control"
+            placeholder="Senha"
+            formControlName="password"
+          />
         </div>
-        <div id="divBotao">
-          <button class="btn btn-outline-success" [disabled]="!loginForm.valid">Logar</button>
-        </div>
-      </form>
-    </div>
+      </div>
+      <div id="divBotao">
+        <button class="btn btn-outline-success" [disabled]="!loginForm.valid">Logar</button>
+      </div>
+    </form>
   </div>
+</div>

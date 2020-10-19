@@ -1,15 +1,13 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { LoginComponent } from './login.component';
-import { CardModule } from '../../../shared/component/card/card.module';
+import { CardModule } from 'src/app/shared/component/card/card.module';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
-
-
 @NgModule({
-  declarations: [LoginComponent],
   imports: [
     CommonModule, CardModule, FormsModule, ReactiveFormsModule
-  ]
+  ],
+  declarations: [LoginComponent]
 })
-export class UserModule { }
+export class LoginModule { }
