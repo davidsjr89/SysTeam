@@ -1,2 +1,12 @@
-<router-outlet></router-outlet>
-<app-rodape></app-rodape>
+<div [hidden]="this.carregaLocalStorageUsername() == null">
+    <app-cabecalho>
+        
+        <router-outlet></router-outlet>
+    
+    </app-cabecalho>
+</div>
+
+<div [hidden]="this.carregaLocalStorageUsername() != null">
+        <router-outlet></router-outlet>
+</div>
+

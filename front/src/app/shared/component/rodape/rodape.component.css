@@ -1,12 +1,15 @@
-#rodapeinicial{
-    background-color: #DCDCDC;
-    position: absolute;
-	bottom: 0;
-    height: 50px;
-    width: 100% !important;
+#rodapeinicial {
+  background-color: #dcdcdc;
+  position: absolute;
+  bottom: 0;
+  height: 50px;
+  position: fixed;
+  left: 0;
+  width: 100%;
+  text-align: center;
 }
 
-#rodapeinicial p{
-    font-size: 1em !important;
-    padding-top: 10px;
+#rodapeinicial p {
+  font-size: 1em !important;
+  padding-top: 10px;
 }
